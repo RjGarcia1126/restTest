@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><note class="form" maintenanceversion="1.6" replicaid="87257F97007F4E72" version="9.0" xmlns="http://www.lotus.com/dxl">
+<noteinfo noteid="156" sequence="34" unid="97D33AFF821D64E687257F890069A870">
+<created><datetime dst="true">20160402T131404,00-06</datetime></created>
+<modified><datetime>20170224T080750,18-07</datetime></modified>
+<revised><datetime>20170224T080750,17-07</datetime></revised>
+<lastaccessed><datetime>20170224T080750,18-07</datetime></lastaccessed>
+<addedtofile><datetime dst="true">20160416T171031,90-06</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Csaba Kiss/O=CSABA-PC</name><name>CN=Csaba Kiss/O=desktop</name></updatedby>
+<wassignedby><name>CN=Csaba Kiss/O=desktop</name></wassignedby>
+<item name="$Flags"><text>gC~4K</text></item>
+<item name="$TITLE"><text>repeatControl.xsp</text></item>
+<item name="$Comment" sign="true"><text>Display data with repeat control</text></item>
+
+
+
+
+
+<item name="$FileNames" sign="true"><text>repeatControl.xsp</text></item>
+<item name="$DesignerVersion"><text>8.5</text></item>
+
+</note>

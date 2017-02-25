@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='utf-8'?>
+<form name='chat' xmlns='http://www.lotus.com/dxl' version='9.0' maintenanceversion='1.6'
+ replicaid='87257F97007F4E72' publicaccess='false' designerversion='8.5.3'
+ renderpassthrough='true'>
+<noteinfo noteid='14e' unid='9ADC1860870D002487257F890069485A' sequence='2'>
+<created><datetime dst='true'>20160402T130958,02-06</datetime></created>
+<modified><datetime>20170224T080750,14-07</datetime></modified>
+<revised><datetime>20170224T080750,13-07</datetime></revised>
+<lastaccessed><datetime>20170224T080750,14-07</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20160416T171031,86-06</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Csaba Kiss/O=CSABA-PC</name><name>CN=Csaba Kiss/O=desktop</name></updatedby>
+<wassignedby><name>CN=Csaba Kiss/O=desktop</name></wassignedby>
+<body><richtext>
+<pardef id='1'/>
+<par def='1'><field type='text' kind='editable' name='author'/><compositedata
+ type='98' prevtype='65418' nexttype='222' afterparcount='7' containertype='65418'
+ aftercontainercount='1' afterbegincount='3'>
+Yg4BAIQAAAAAAAAAAAA=
+</compositedata><field type='text'
+ kind='editable' name='chat'/><compositedata type='98' prevtype='65418' nexttype='222'
+ afterparcount='13' containertype='65418' aftercontainercount='1' afterbegincount='3'>
+Yg4BAIQAAAAAAAAAAAA=
+</compositedata><field
+ type='text' kind='editable' name='created'/><compositedata type='98' prevtype='65418'
+ nexttype='222' afterparcount='19' containertype='65418' aftercontainercount='1'
+ afterbegincount='3'>
+Yg4BAIQAAAAAAAAAAAA=
+</compositedata></par></richtext></body>
+<item name='$$ScriptName' summary='false' sign='true'><text>chat</text></item></form>
+

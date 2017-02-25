@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xp:view
+  xmlns:xp="http://www.ibm.com/xsp/core"
+  xmlns:xe="http://www.ibm.com/xsp/coreex"
+>
+  <xp:this.resources>
+    <xp:script
+      src="/log.js"
+      clientSide="true"
+    >
+    </xp:script>
+  </xp:this.resources>
+  
+  <xp:div styleClass="container">
+    <xp:br></xp:br>
+    <xp:table styleClass="table-striped table-bordered table-condensed chatTable">
+      <xp:tr>
+        <xp:td style="width:10%;">Cat</xp:td>
+        <xp:td style="width:20%;">Author</xp:td>
+        <xp:td style="width:50%;">Message</xp:td>
+        <xp:td style="width:20%;">Created</xp:td>
+      </xp:tr>
+    </xp:table>
+    <xp:scriptBlock id="scriptBlock1">
+      <xp:this.value><![CDATA[//JavaScript
+
+var table = document.getElementsByClassName("chatTable")[0];
+$.getJSON("xsp/.xrest/smartCatChats/4", function(data) {
+  var row;
+  data.forEach( function(val, key) {
+    row = table.insertRow();
+    row.insertCell().innerHTML = val.category;
+    row.insertCell().innerHTML = val.author;
+    row.insertCell().innerHTML = val.chat;
+    row.insertCell().innerHTML = val.created;
+  });
+
+});
+
+]]></xp:this.value>
+    </xp:scriptBlock>
+  </xp:div>
+</xp:view>

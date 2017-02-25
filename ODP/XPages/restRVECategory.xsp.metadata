@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><note class="form" maintenanceversion="1.6" replicaid="87257F97007F4E72" version="9.0" xmlns="http://www.lotus.com/dxl">
+<noteinfo noteid="246" sequence="15" unid="E5A7ACE07DC93860872580D20067CE1C">
+<created><datetime>20170225T115349,72-07</datetime></created>
+<modified><datetime>20170225T145423,43-07</datetime></modified>
+<revised><datetime>20170225T145423,42-07</datetime></revised>
+<lastaccessed><datetime>20170225T145423,42-07</datetime></lastaccessed>
+<addedtofile><datetime>20170225T145423,07-07</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Csaba Kiss/O=desktop</name></updatedby>
+<wassignedby><name>CN=Csaba Kiss/O=desktop</name></wassignedby>
+<item name="$Flags"><text>gC~4K</text></item>
+<item name="$TITLE" sign="true"><text>restRVECategory.xsp</text></item>
+<item name="$DesignerVersion"><text>8.5</text></item>
+
+
+
+
+
+<item name="$FileNames" sign="true"><text>restRVECategory.xsp</text></item>
+
+</note>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><note class="filter" maintenanceversion="1.6" replicaid="87257F97007F4E72" version="9.0" xmlns="http://www.lotus.com/dxl">
+<noteinfo noteid="15e" sequence="3" unid="993E7A6A12FE653387257F89006AF2C2">
+<created><datetime dst="true">20160402T132809,62-06</datetime></created>
+<modified><datetime>20170224T080750,22-07</datetime></modified>
+<revised><datetime>20170224T080750,21-07</datetime></revised>
+<lastaccessed><datetime>20170224T080750,22-07</datetime></lastaccessed>
+<addedtofile><datetime dst="true">20160416T171031,94-06</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Csaba Kiss/O=CSABA-PC</name><name>CN=Csaba Kiss/O=desktop</name></updatedby>
+<wassignedby><name>CN=Csaba Kiss/O=desktop</name></wassignedby>
+<item name="$TITLE" sign="true"><text>log.js</text></item>
+<item name="$Flags"><text>h534Q</text></item>
+<item name="$PublicAccess" sign="true"><text>1</text></item>
+<item name="$DesignerVersion"><text>8.5.3</text></item>
+</note>

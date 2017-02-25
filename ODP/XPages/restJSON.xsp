@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xp:view
+  xmlns:xp="http://www.ibm.com/xsp/core"
+  xmlns:xe="http://www.ibm.com/xsp/coreex"
+>
+  <xp:this.resources>
+    <xp:script
+      src="/log.js"
+      clientSide="true"
+    >
+    </xp:script>
+  </xp:this.resources>
+  <xe:restService
+    id="rs1"
+    pathInfo="chats"
+  >
+    <xe:this.service>
+      <xe:viewJsonService viewName="chats" count="10000" compact="true" defaultColumns="false" systemColumns="0">
+        <xe:this.columns>
+          <xe:restViewColumn columnName="author" name="author"></xe:restViewColumn>
+          <xe:restViewColumn columnName="chat" name="chat"></xe:restViewColumn>
+          <xe:restViewColumn columnName="created" name="created"></xe:restViewColumn>
+        </xe:this.columns>
+      </xe:viewJsonService>
+    </xe:this.service>
+  </xe:restService>
+  <xp:div styleClass="container">
+    <xp:br></xp:br>
+    <xp:table styleClass="table-striped table-bordered table-condensed chatTable">
+      <xp:tr>
+        <xp:td style="width:30%;">Author</xp:td>
+        <xp:td style="width:50%;">Message</xp:td>
+        <xp:td style="width:20%;">Created</xp:td>
+      </xp:tr>
+    </xp:table>
+    <xp:scriptBlock id="scriptBlock1">
+      <xp:this.value><![CDATA[var table = document.getElementsByClassName("chatTable")[0];
+$.getJSON('restJSON.xsp/chats', function(data) {
+  var row;
+  data.forEach( function(val, key) {
+    row = table.insertRow();
+    row.insertCell().innerHTML = val.author;
+    row.insertCell().innerHTML = val.chat;
+    row.insertCell().innerHTML = val.created;
+  });
+
+});
+
+]]></xp:this.value>
+    </xp:scriptBlock>
+  </xp:div>
+</xp:view>
