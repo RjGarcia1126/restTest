@@ -1,39 +1,56 @@
-<?xml version='1.0' encoding='utf-8'?>
-<view name='chats' xmlns='http://www.lotus.com/dxl' version='9.0' maintenanceversion='1.6'
- replicaid='87257F97007F4E72' showinmenu='false' noreplace='true' publicaccess='false'
- designerversion='8.5.3' unreadmarks='none' onopengoto='lastopened' onrefresh='displayindicator'
- headers='beveled' opencollapsed='false' showresponsehierarchy='true' showmargin='true'
- shrinkrows='false' extendlastcolumn='false' showhierarchies='false' unreadcolor='black'
- rowlinecount='1' headerlinecount='1' rowspacing='1' bgcolor='white' totalscolor='black'
- headerbgcolor='white' boldunreadrows='false' evaluateactions='false' allownewdocuments='false'
- allowcustomizations='true' hidemarginborder='false' marginwidth='0px' marginbgcolor='white'
- uniquekeys='false'>
-<noteinfo noteid='152' unid='DE51E5B3FB3A2C0587257F8900694BD1' sequence='7'>
-<created><datetime dst='true'>20160402T131006,89-06</datetime></created>
-<modified><datetime>20170224T080750,16-07</datetime></modified>
-<revised><datetime>20170224T080750,15-07</datetime></revised>
-<lastaccessed><datetime>20170224T081028,35-07</datetime></lastaccessed>
-<addedtofile><datetime dst='true'>20160416T171031,88-06</datetime></addedtofile></noteinfo>
-<updatedby><name>CN=Csaba Kiss/O=CSABA-PC</name><name>CN=Csaba Kiss/O=desktop</name></updatedby>
-<wassignedby><name>CN=Csaba Kiss/O=desktop</name></wassignedby><code event='selection'><formula
->SELECT ((Form = "chat"))</formula></code>
-<column hidedetailrows='false' itemname='author' width='20' resizable='true'
- separatemultiplevalues='false' sortnoaccent='false' sortnocase='true' showaslinks='false'><columnheader
- title='author'><font size='9pt' style='bold'/></columnheader></column>
-<column hidedetailrows='false' itemname='chat' width='47.5000' resizable='true'
- separatemultiplevalues='false' sortnoaccent='true' sortnocase='true' showaslinks='false'><columnheader
- title='chat'><font size='9pt' style='bold'/></columnheader></column>
-<column sort='ascending' resort='both' hidedetailrows='false' itemname='$3'
- width='18.6250' resizable='true' separatemultiplevalues='false' sortnoaccent='false'
- sortnocase='true' showaslinks='false'><columnheader title='created'><font
- size='9pt' style='bold'/></columnheader><datetimeformat show='datetime' date='yearmonthday'
- fourdigityearfor21stcentury='true' time='hourminutesecond' zone='never' dateformat='weekdaymonthdayyear'
- dayformat='twodigitday' monthformat='twodigitmonth' yearformat='fourdigityear'
- weekdayformat='shortname' dateseparator1=' ' dateseparator2='/' dateseparator3='/'
- timeseparator=':' preference='usersetting'/><code event='value'><formula
->@Created</formula></code></column>
-<item name='$SelQuery' sign='true'>
-<rawitemdata type='f'>
+<?xml version="1.0" encoding="UTF-8"?>
+<note xmlns="http://www.lotus.com/dxl" class="view">
+  <item name="$FormulaClass" sign="true">
+    <text>1</text>
+  </item>
+  <item name="$TITLE" sign="true">
+    <text>chats</text>
+  </item>
+  <item name="$Index" sign="true">
+    <text/>
+  </item>
+  <item name="$Formula" summary="true" sign="true">
+    <formula compiled="true">
+aAACAAwAAgAkM2kAAwAFACwAJwAFAAYABAACAAkABABhdXRob3JjaGF0JDMkQ29uZmxpY3QkUkVG
+AAQABAAAABwABQAEAEZvcm0BAAQAY2hhdAoCBAAEAAMABwAOAAgACUwxUzRTNVM=
+</formula>
+  </item>
+  <item name="$Collation" summary="true">
+    <rawitemdata type="2">
+DwABAABEgGYAAAACACQz
+</rawitemdata>
+  </item>
+  <item name="$Collation1" summary="true">
+    <rawitemdata type="2">
+DwABAABEgGYAAAACACQz
+</rawitemdata>
+  </item>
+  <item name="$Collation2" summary="true">
+    <rawitemdata type="2">
+DwABAABEgWYAAAACACQz
+</rawitemdata>
+  </item>
+  <item name="$ViewFormat" summary="true" sign="true">
+    <rawitemdata type="5">
+AQADAAAACAAAAFZDAAAGAAYAAAAAAKAAAQAACgAAAAAAAAAAAAICAAAAVkMAAAQABAAAAAAAfAEB
+AAAKAAAAAAAAAAAAAgIAAABWQwEDAgAHAA4AAACVAAEAAAoAAAAAAAAAAAACAgAAAGF1dGhvcmF1
+dGhvcmNoYXRjaGF0JDNjcmVhdGVkDgACAAwAAgAkM2kAAwAmAAEAAAABAQAJAQAACgEBAAoAAAEA
+rSsBAAEAAQAAAAAAAAAAAFdDAQEACQAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAP//AAAAAAAAAAAA
+AAAAAABXQwEBAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD//wAAAAAAAAAAAAAAAAAAV0MBAQAJ
+AAAAAAAAAAAAAAAAAAAAAAAARAAAAAAA//8AAAAAAAAAAAAAAAAAAEIAAAAAAAEA////AAUA////
+AAEAAAAAAAAAAAAAAAAAAQD///8AAQD///8AAAABAAAAAAABAAAAAAABAAAAAAAAAAgAAAAAAAEA
+WEMADIACAAAAAAABAgICAQEBAQcEAwAAAAAAAAAAIC8vOg==
+</rawitemdata>
+  </item>
+  <item name="$Comment" sign="true">
+    <text/>
+  </item>
+  <item name="$SelQuery" sign="true">
+    <rawitemdata type="f">
 gQYAAAAAif8QAAAAAAABAAQAY2hhdA==
-</rawitemdata></item></view>
-
+</rawitemdata>
+  </item>
+  <item name="$Flags">
+    <text>PY</text>
+  </item>
+</note>

@@ -1,35 +1,44 @@
-<?xml version='1.0' encoding='utf-8'?>
-<form name='catChat' xmlns='http://www.lotus.com/dxl' version='9.0' maintenanceversion='1.6'
- replicaid='87257F97007F4E72' publicaccess='false' designerversion='8.5.3'
- renderpassthrough='true'>
-<noteinfo noteid='1e2' unid='2CBDEDBF6B01597F872580D2000530D3' sequence='6'>
-<created><datetime>20170224T175641,79-07</datetime></created>
-<modified><datetime>20170224T235543,55-07</datetime></modified>
-<revised><datetime>20170224T235543,54-07</datetime></revised>
-<lastaccessed><datetime>20170224T235543,55-07</datetime></lastaccessed>
-<addedtofile><datetime>20170224T175641,80-07</datetime></addedtofile></noteinfo>
-<updatedby><name>CN=Csaba Kiss/O=desktop</name></updatedby>
-<wassignedby><name>CN=Csaba Kiss/O=desktop</name></wassignedby>
-<body><richtext>
-<pardef id='1'/>
-<par def='1'><field type='text' kind='editable' name='category'/><compositedata
- type='98' prevtype='65418' nexttype='222' afterparcount='7' containertype='65418'
- aftercontainercount='1' afterbegincount='3'>
-Yg4BAIQAAAAAAAAAAAA=
-</compositedata><field type='text'
- kind='editable' name='author'/><compositedata type='98' prevtype='65418'
- nexttype='222' afterparcount='13' containertype='65418' aftercontainercount='1'
- afterbegincount='3'>
-Yg4BAIQAAAAAAAAAAAA=
-</compositedata><field type='text' kind='editable' name='chat'/><compositedata
- type='98' prevtype='65418' nexttype='222' afterparcount='19' containertype='65418'
- aftercontainercount='1' afterbegincount='3'>
-Yg4BAIQAAAAAAAAAAAA=
-</compositedata><field type='text'
- kind='editable' name='created'/><compositedata type='98' prevtype='65418'
- nexttype='222' afterparcount='25' containertype='65418' aftercontainercount='1'
- afterbegincount='3'>
-Yg4BAIQAAAAAAAAAAAA=
-</compositedata></par></richtext></body>
-<item name='$$ScriptName' summary='false' sign='true'><text>chat</text></item></form>
-
+<?xml version="1.0" encoding="UTF-8"?>
+<note xmlns="http://www.lotus.com/dxl" class="form">
+  <item name="$TITLE" sign="true">
+    <text>catChat</text>
+  </item>
+  <item name="$Body" sign="true">
+    <rawitemdata type="1">
+gQKC/1oAAQAAAAAAAAAAAKAFAACgBQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAABAAAAAJSHAAAAAAAAAAAAAAAAAQAAAAQAAACDBAEA3QYAAIr//v9QAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAACK/ywAigAABQAwAAAAAAAAAAABAAAKAAAAAAAAAAAIAAAAAABjYXRlZ29yeWIO
+AQCEAAAAAAAAAAAA3gYAAIr/3QYAAIr//v9QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACK/yoAigAABQAw
+AAAAAAAAAAABAAAKAAAAAAAAAAAGAAAAAABhdXRob3JiDgEAhAAAAAAAAAAAAN4GAACK/90GAACK
+//7/UAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAiv8oAIoAAAUAMAAAAAAAAAAAAQAACgAAAAAAAAAABAAA
+AAAAY2hhdGIOAQCEAAAAAAAAAAAA3gYAAIr/3QYAAIr//v9QAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACK
+/ysAigAABQAwAAAAAAAAAAABAAAKAAAAAAAAAAAHAAAAAABjcmVhdGVkAGIOAQCEAAAAAAAAAAAA
+3gYAAIr/
+</rawitemdata>
+  </item>
+  <item name="$HTMLCode" sign="true">
+    <rawitemdata type="1">
+X/8QAAIADwAHAAAAAAAAAA==
+</rawitemdata>
+  </item>
+  <item name="$Info" sign="true">
+    <rawitemdata type="1">
+hhgBAIAAAAAAgAAAAQABAP///wAQAAAA
+</rawitemdata>
+  </item>
+  <item name="$Flags">
+    <text/>
+  </item>
+  <item name="$Fields">
+    <textlist>
+      <text>category</text>
+      <text>author</text>
+      <text>chat</text>
+      <text>created</text>
+    </textlist>
+  </item>
+</note>

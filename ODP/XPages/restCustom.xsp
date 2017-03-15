@@ -15,9 +15,10 @@
 var chat = chats.getFirstEntry();
   while (chat != null) {
     var entry = {};
-  	entry.author = chat.getDocument().getItemValueString("author");
-  	entry.chat = chat.getDocument().getItemValueString("chat");
-  	entry.created = chat.getDocument().getCreated().toString();
+    var doc = chat.getDocument();
+  	entry.author = doc.getItemValueString("author");
+  	entry.chat = doc.getItemValueString("chat");
+  	entry.created = doc.getCreated().toString();
   	response.push(entry);
  	var tmpchat = chats.getNextEntry(chat);
  	chat.recycle();
