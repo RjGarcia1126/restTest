@@ -5,7 +5,6 @@
 
   </xp:this.resources>
   <xe:restService id="rs1" pathInfo="customChats">
-
     <xe:this.service>
       <xe:customRestService contentType="application/json" requestContentType="application/json">
         <xe:this.doGet><![CDATA[#{javascript:  var db = database;
@@ -22,6 +21,7 @@ var chat = chats.getFirstEntry();
   	response.push(entry);
  	var tmpchat = chats.getNextEntry(chat);
  	chat.recycle();
+ 	doc.recycle();
  	chat = tmpchat;
   }
   return toJson(response);}]]></xe:this.doGet>
